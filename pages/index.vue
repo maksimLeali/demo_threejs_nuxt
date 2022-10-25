@@ -1,6 +1,6 @@
 <template lang="pug">
-.content.p-5
-  button(v-for="(obj, index) in objects" :key="index" @click="$stage.lookAt({ index, zoom:obj.zoom })" ) {{ obj.name }}
+.content
+  //- button(v-for="(obj, index) in objects" :key="index" @click="$stage.lookAt({ index, zoom:obj.zoom })" ) {{ obj.name }}
 
 </template>
 
@@ -8,19 +8,19 @@
 export default {
   data() {
     return {
-      objects: [
-        {
-          name: "Cube",
-          zoom: 1.5
-        },
-        {
-          name: "Ico"
-        },
-        {
-          name: "Sphere",
-          zoom: 1.8
-        }
-      ]
+      // objects: [
+      //   {
+      //     name: "Cube",
+      //     zoom: 1.5
+      //   },
+      //   {
+      //     name: "Ico"
+      //   },
+      //   {
+      //     name: "Sphere",
+      //     zoom: 1.8
+      //   }
+      // ]
     };
   },
   mounted() {
@@ -28,3 +28,11 @@ export default {
   }
 };
 </script>
+
+<style>
+.content {
+  position: relative;
+  z-index: 10
+  ;
+}
+</style>

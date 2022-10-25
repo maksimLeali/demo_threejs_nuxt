@@ -15,16 +15,18 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
     "core-js": "^3.25.3",
+    "dat.gui": "^0.7.9",
     "gsap": "^3.11.3",
     "lodash-es": "^4.17.21",
     "nuxt": "^2.15.8",
     "pug": "^3.0.2",
     "pug-plain-loader": "^1.1.0",
     "three": "^0.145.0",
+    "threejs-orbit-controls": "^1.0.3",
+    "touch-position": "2.0.0",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
-    "vue-template-compiler": "^2.7.10",
-    "touch-position": "2.0.0"
+    "vue-template-compiler": "^2.7.10"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",

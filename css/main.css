@@ -15,3 +15,6 @@ html {
     /* background: linear-gradient(163deg, #fdfcfb 0%, rgb(184 186 199 / 1) 100%); */
   }
   
+  body{
+    margin: 0;
+  }
